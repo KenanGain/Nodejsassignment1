@@ -1,0 +1,22 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "Fake E comm site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Kenan Gain",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
