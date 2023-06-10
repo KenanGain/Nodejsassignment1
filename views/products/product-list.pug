@@ -1,0 +1,25 @@
+extends ../layout 
+
+block main-content
+    h1 Add Products
+    a(href="/product/add") + Add Product
+         table 
+        thead
+            tr
+                th Product Image
+                th Product name 
+                th Price 
+
+            //-     if (products && products.length > 0)
+            //-     each product in jsonData
+            //- tr
+                //- td
+                //-     img(src=product.img_src, alt=product.img_alt).table-image
+                //- td
+                //-      |        #{product.h3}
+                //-  td
+                //-     | #{product.p}
+                //- td
+                //-     a.button(href=product.a.href)=product.a.text
+
+            
