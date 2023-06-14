@@ -8,7 +8,8 @@ Router.use(express.json());
 
 Router.get("/", async (request, response) => {
     let products = await Model.getAllProductlinks();
-    response.render("product-list", { 
+    console.log(products);
+    response.render("products/product-list", { 
         title: "Products List", 
         products: products
     });
